@@ -1,0 +1,35 @@
+.intro-text {
+  width: 526px;
+}
+
+.intro-sparkle-list {
+  width: 128px;
+}
+
+.about-list {
+  width: 636px;
+}
+
+.about-item {
+  width: 306px;
+  border: 1px solid $secondary-light;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+.about-text {
+  width: 526px;
+}
+
+.contract-link-img {
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.5s;
+}
+
+.contract-link-img:hover {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.project .title {
+  transform: translateX(-98px);
+}

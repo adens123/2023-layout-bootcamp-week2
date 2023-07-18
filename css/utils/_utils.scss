@@ -1,0 +1,190 @@
+// container
+// ----------------------
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+//font-size
+// ----------------------
+.title {
+  font-size: 64px;
+}
+
+.text-l {
+  font-size: 24px;
+}
+
+.text-m {
+  font-size: 20px;
+}
+
+//font-position
+// ----------------------
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+//font-color
+// ----------------------
+
+.text-white {
+  color: #fff;
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-dark {
+  color: $secondary-dark;
+}
+
+.text-light {
+  color: $secondary-mid;
+}
+
+// background
+// ----------------------
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-cover {
+  background-image: url("../images/background-img.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.bg-linear {
+  background-image: linear-gradient(180deg, #050014, rgba(1, 2, 30, 0.89));
+}
+
+// spacing (multiple of 4)
+// ----------------------
+.p-4 {
+  padding: 16px;
+}
+
+.pt-10 {
+  padding-top: 40px;
+}
+
+.py-10 {
+  padding: 40px;
+}
+
+.py-18 {
+  padding: 72px 0;
+}
+
+.py-24 {
+  padding: 96px 0;
+}
+
+.py-40 {
+  padding: 160px 0;
+}
+
+.me-4 {
+  margin-right: 16px;
+}
+
+.me-5 {
+  margin-right: 20px;
+}
+
+.me-6 {
+  margin-right: 24px;
+}
+
+.mb-1 {
+  margin-bottom: 4px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.mb-8 {
+  margin-bottom: 32px;
+}
+
+.mb-9 {
+  margin-bottom: 36px;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+.ms-auto {
+  margin-left: auto;
+}
+
+.gap-6 {
+  gap: 24px;
+}
+
+// sizing
+// ----------------------
+
+.w-50 {
+  width: 50%;
+}
+
+// border (multiple of 4)
+// ----------------------
+
+.rounded-10 {
+  border-radius: 40px;
+}
+
+// display
+// ----------------------
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-align-start {
+  align-items: start;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
